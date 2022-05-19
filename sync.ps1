@@ -1,1 +1,3 @@
-git add .git commit -m "backup"git push origin main
+git add .
+git commit -m "backup" -S
+git push origin main
