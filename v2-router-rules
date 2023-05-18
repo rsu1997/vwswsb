@@ -1,0 +1,83 @@
+[
+  {
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads",
+      "geosite:category-ads-all"
+    ],
+    "enabled": true
+  },
+  {
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:google",
+      "geosite:github",
+      "geosite:telegram",
+      "domain:hdhome.org",
+      "domain:ubi.com",
+      "domain:ubisoft.com",
+      "domain:themoviedb.org",
+      "domain:Fanart.tv",
+      "domain:a4k.net"
+    ],
+    "enabled": true
+  },
+  {
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:cn",
+      "geoip:private"
+    ],
+    "domain": [
+      "geosite:cn",
+      "geosite:private",
+      "geosite:bing",
+      "geosite:azure",
+      "geosite:microsoft",
+      "geosite:microsoft-dev",
+      "domain:sharepoint.com",
+      "domain:bnz05pap002.storage.live.com",
+      "domain:akamaihd.net",
+      "domain:cloudfront.net",
+      "geosite:aliyun",
+      "geosite:alibabacloud",
+      "geosite:alibaba",
+      "geosite:ali213",
+      "geosite:netease",
+      "geosite:tencent",
+      "geosite:baidu",
+      "geosite:bilibili",
+      "geosite:zhihu",
+      "geosite:baijiayun",
+      "geosite:douban",
+      "geosite:douyu",
+      "geosite:bytedance",
+      "geosite:huawei",
+      "geosite:iqiyi",
+      "geosite:sina",
+      "geosite:jd",
+      "geosite:eleme",
+      "domain:izual.site",
+      "domain:zjks.com",
+      "domain:mb3admin.com",
+      "domain:bignox.com",
+      "domain:myhuaweicloud.com",
+      "domain:akamaized.net",
+      "domain:subhd.tv",
+      "domain:imgtu.com",
+      "domain:qidian.com",
+      "domain:aaaaa.ubi.com",
+      "domain:aaaaa.ubisoft.com",
+      "domain:aaaaa.emby.izual.site",
+      "domain:m-team.cc",
+      "domain:edu.cn"
+    ],
+    "enabled": true
+  }
+]
